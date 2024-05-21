@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Reg.html">Register and Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resources.html">Resources</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End of navigation bar--> <br>
+
+    <h1 class="fsttxt">Reviews</h1>
+    <h1 class="sndtxt">Customer reviews</h1>
+  <div style="margin: 50px;">
+
+    <div class="review" style="background-color: #00BBFF;">
+      
+      <p>Saed, from Saudi Arabia</p>
+      <p>Rating: 10/10</p>
+      <p>Incredible service from start to finish. The food was delicious, and the delivery driver was friendly and professional.
+        I appreciate the attention to detail and the seamless ordering experience.
+        Order Up has become my new favorite food delivery service!</p>
+    </div>
+
+    <div class="review">
+     
+      <p>Khaled Shareif, from Egypt</p>
+      <p>Rating: 9/10</p>
+      <p>I can't say enough good things about Order Up. The quality of the food exceeded my expectations, and the portions were generous.
+        The website is user-friendly,and the delivery arrived right on time.
+        I highly recommend Order Up to anyone looking for a convenient and satisfying meal!</p>
+    </div>
+
+    <div class="review" style="background-color: #00BBFF;">
+      
+      <p>Ahmad Swedan, from Jordan</p>
+      <p>Rating: 8/10</p>
+      <p>"Order Up provides excellent service and delicious food. I'm giving it 4 stars because on one occasion,
+        my order was missing a side dish. However, they promptly resolved the issue, and I appreciate their responsiveness.</p>
+    </div>
+
+    <div class="review">
+      
+      <p>Manar Mamdouh, from The UAE</p>
+      <p>Rating: 9/10</p>
+      <p>Absolutely blown away by Order Up! The food arrived hot and fresh, and the delivery was quicker than expected.
+        The menu selection is fantastic, and the ordering process couldn't be easier. Will definitely be ordering again!</p>
+    </div>
+  </div>
+
+
+  <h1 class="sndtxt" style="margin-bottom:50px;">Leave your own Review!</h1>
+  <div style="margin-bottom: 40px;">
+
+    <form class="review" style="padding: 10px;">
+      <div class="row">
+        <div>
+          <label for="fname">First Name</label>
+        </div>
+        <div>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div >
+          <label for="lname">Last Name</label>
+        </div>
+        <div>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <label >
+                Rating<br>
+                <input type="number" placeholder="10/10">
+            </label>
+        </div>
+    </div>
+      <div class="row">
+        <div >
+          <label for="country">Country</label>
+        </div>
+        <div >
+          <select id="country" name="country">
+            <option selected value="jordan">Jordan</option>
+            <option value="palestine">Palestine</option>
+            <option value="ksa">Saudi Arabia</option>
+            <option value="uae">United Arab Emirates</option>
+            <option value="syria">Syria</option>
+            <option value="lebanon">Lebanon</option>
+            <option value="egy">Egypt</option>
+            <option value="iraq">Iraq</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div >
+          <label for="subject">Review</label>
+        </div>
+        <div >
+          <textarea id="subject" name="subject" placeholder="Your review.."
+            style="height:200px; resize: none;"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+    <br>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 Order-Up. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
